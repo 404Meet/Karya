@@ -1,0 +1,20 @@
+## .NET
+bin/
+obj/
+*.user
+.vs/
+.idea/
+*.suo
+*.swp
+
+## Rider / VS Code
+.vscode/
+.idea/
+
+## NuGet
+*.nupkg
+packages/
+
+## Secrets
+appsettings.local.json
+appsettings.*.local.json
