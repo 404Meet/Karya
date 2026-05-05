@@ -169,19 +169,19 @@ All settings live in `appsettings.json` under the `Karya` key:
 ## Project Structure
 
 ```
-Karya/
-├── src/
-│   └── Karya.McpServer/
-│       ├── Program.cs               # DI wiring, HTTP clients, MCP server setup
-│       ├── Models/                  # ApiEntry, ArchitectureResource, etc.
-│       ├── Services/                # PublicApiService, WebScraperService,
-│       │                            # ImplementationResourceService, ApiArchitectureService
-│       ├── Tools/                   # 13 MCP tools across 5 files
-│       ├── Resources/               # 7 MCP resources across 2 files
-│       ├── Prompts/                 # 4 MCP prompts
-│       └── Infrastructure/          # CacheKeys, HttpClientNames, ArchitectureCatalog
-└── tests/
-    └── Karya.McpServer.Tests/       # xUnit tests for services and tools
+── Karya/
+  ── src/
+     ── Karya.McpServer/
+         ── Program.cs               # DI wiring, HTTP clients, MCP server setup
+         ── Models/                  # ApiEntry, ArchitectureResource, etc.
+         ── Services/                # PublicApiService, WebScraperService,
+                                     # ImplementationResourceService, ApiArchitectureService
+         ── Tools/                   # 13 MCP tools across 5 files
+         ── Resources/               # 7 MCP resources across 2 files
+         ── Prompts/                 # 4 MCP prompts
+         ── Infrastructure/          # CacheKeys, HttpClientNames, ArchitectureCatalog
+  ── tests/
+      ── Karya.McpServer.Tests/       # xUnit tests for services and tools
 ```
 
 ---
