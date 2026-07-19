@@ -1,6 +1,6 @@
 # Karya
 
-> **Karya** (Ka-arya / कार्य) — *work, service*
+> **Karya** — *work, service*
 >
 > A Service-as-a-Service MCP server that gives AI clients structured access to API discovery, architecture and framework guidance, built to make API research and integration planning a first-class, AI-native development workflow.
 
